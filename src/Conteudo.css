@@ -1,0 +1,18 @@
+img {
+    width: 100px;
+    animation: Sonic 3s infinite;
+}
+
+@keyframes Sonic {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+        transform: rotate(0);
+    }
+    to{
+        transform: translateY(100px);
+        opacity: 1;
+        width: 300px;
+        transform: rotate(360deg);
+    }
+}
